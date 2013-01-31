@@ -1,0 +1,19 @@
+/*
+Theme Name:Festival
+Theme URI:http://example.com/
+Description:Thème enfant du thème Twenty Twelve
+Author:Iut
+Author URI:http://example.com/about/
+Template:twentytwelve
+Version:0.1.0
+*/
+
+@import url("../twentytwelve/style.css");
+
+.fg-violet a {color: #9400D3 !important; }
+.fg-rouge a{color: #ff0000 !important; }
+.fg-orange a{color: #ffa500 !important; }
+.fg-rose a{color: #ff69b4 !important; }
+.fg-vert a{color: #008000 !important; }
+.fg-bleu a{color: #0000ff !important; }
+

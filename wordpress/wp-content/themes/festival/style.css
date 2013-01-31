@@ -1,0 +1,118 @@
+/*
+Theme Name:Festival
+Theme URI:http://example.com/
+Description:Thème enfant du thème Twenty Twelve
+Author:Iut
+Author URI:http://example.com/about/
+Template:twentytwelve
+Version:0.1.0
+*/
+
+@import url("../twentytwelve/style.css");
+
+@font-face {  font-family: Qlassiq;  src: url('font/qlassik.ttf'); }
+
+.fg-violet a {color: #9400D3 !important; }
+
+.fg-violet a:hover{
+  background-color: #9400D3 !important;
+  color:white !important;
+}
+
+.fg-rouge a{color: #ff0000 !important; }
+.fg-rouge a:hover{
+  background-color: #ff0000 !important;
+  color:white !important;
+}
+.fg-orange a{color: #ffa500 !important; }
+.fg-orange a:hover{
+  background-color: #ffa500 !important;
+  color:white !important;
+}
+.fg-rose a{color: #ff69b4 !important; }
+.fg-rose a:hover {
+  background-color: #ff69b4 !important;
+  color:white !important;
+}
+.fg-vert a{color: #008000 !important; }
+.fg-vert a:hover {
+  background-color: #008000 !important;
+  color:white !important;
+}
+.fg-bleu a{color: #0000ff !important; }
+.fg-bleu a:hover {
+  background-color: #0000ff !important;
+  color:white !important;
+}
+
+
+.site {
+  /*background-color: rgba(139, 91, 167, 0.5);*/
+  background-color: rgba(79, 81, 78);
+  }
+
+p {
+  font-family: Qlassiq;
+  font-size: 120%;
+}
+
+
+.site-header h2 {
+  font-size: 18px;
+  padding-left: 25px;
+} 
+.main-navigation{
+font-size: 120%;
+font-family: Purisa,sans-serif ;
+}
+  
+.main-navigation li ul li a {
+   background-color: rgba(79, 81, 78, 0.6);
+   font-weight: bold;
+}
+
+h1,h2{
+  font-family: Purisa,sans-serif ;
+}
+
+#programme p{
+  font-size: 110%;
+}
+
+.main-navigation li a { 
+padding: 0px 10px;
+}
+
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: 500px;
+  /*float: left;*/
+  margin: 0 auto;
+  width: auto;
+  border: 0;
+  }
